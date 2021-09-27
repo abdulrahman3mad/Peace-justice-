@@ -1,0 +1,125 @@
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+$mainColor:#66CFE3;
+$secondaryColor:#F79494;
+
+/*end main style*/
+
+/* start navbar style*/
+
+.navbar-collapse{
+    margin-left:20px
+}
+.navbar img{
+    height:50px;
+}
+.navbar .list_items li a{
+    color:$mainColor !important;
+    font-size:20px !important;
+}
+.navbar .list_items li.active a{
+    color:$secondaryColor !important;
+}
+.navbar .list_items li a:hover{
+    color:$secondaryColor !important;
+}
+/* end navbar style*/
+/* start slider style*/
+.slider{
+    margin-top:50px;
+    .texture-part{
+        min-height:200px;
+        padding:100px 80px;
+        color:#707070;
+        h1{
+            min-width:400px;
+            font-size:55px; 
+            margin-bottom: 15px;   
+            line-height: 1.5;
+        }   
+     
+        }
+        p{
+            color:white;
+        }
+
+    }
+ 
+    .photo-part{
+        opacity: 0.8;
+        background-image: url("../images/slidercover.svg");
+        background-size: cover;
+        height:350px;
+        
+    }
+
+@media (max-width: 768px){
+    .texture-part h1{
+         font-size:30px !important;
+     }
+    }
+/* end slider style*/
+
+/*start about style*/
+.About_Us{
+  padding:80px 0;
+  margin-bottom:50px;
+  
+  h2{
+      margin-bottom: 10px;
+      font-size:50px;
+      color:$mainColor;
+  }
+  p{
+      max-width:750px;
+      margin:auto;
+      color:#908E8E;
+      font-size:20px
+
+  }
+}
+/*end about style*/
+
+/*start board_members*/
+.board_members{
+    h2{
+        
+        color:$mainColor;
+        margin-bottom: 40px;
+        font-size:50px;
+    }
+    .card{
+        margin-bottom:80px;
+        box-shadow: 1px 0.5px 5px #bdb8b8;
+    }
+    .card h4{
+        color:$mainColor;
+        margin-bottom:3px
+    }
+    .card span{
+        color:$secondaryColor
+    }
+    
+}
+
+/*end board_members*/
+/*start footer style*/
+.footer{
+    margin-top:50px;
+    border-top:1px solid #9B9696;
+    padding:30px 0;
+}
+.footer .content{
+    color:#908E8E
+}
+.footer ul li {
+    display: inline-block;
+    margin-right:10px;
+    opacity: 0.6;
+}
+/*end footer style*/
